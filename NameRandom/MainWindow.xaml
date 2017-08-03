@@ -1,0 +1,19 @@
+﻿<Window x:Class="NameRandom.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NameRandom"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <CheckBox Content="All" Margin="430,10,10,100"/>
+        <CheckBox Content="M2" Margin="430,40,10,100"/>
+        <CheckBox Content="M1" Margin="430,70,10,100"/>
+        <CheckBox Content="B4" Margin="430,100,10,100"/>
+
+        <TextBox AcceptsReturn="True" Height="Auto" FontSize="20" Margin="10,10,0,10" VerticalScrollBarVisibility="Auto" HorizontalAlignment="Left" Width="300"/>
+
+        <Button Content="Start"  Width="100" Height="50" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>
